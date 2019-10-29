@@ -10,7 +10,7 @@ After migration, this project will aggregate the description of all activities a
 
 `CommServer` is a package of software to manage data transfer. Built-in technologies and algorithms provide a smart data transmission that automatically adapts its parameters to the process needs and underlying communication network capabilities.
 
-To learn more about `CommServer` software family visit the [software home page][comsvr]. 
+To learn more about `CommServer` software family visit the [software home page][comsvr].
 
 
 The `CommServer` software was written by CAS Lodz Poland. I am the founder and Executive Director of CAS. Now CAS is just an individual business activity conducted by me, so I decided to move this software to Open Source.
@@ -22,31 +22,26 @@ The `CommServer` software was written by CAS Lodz Poland. I am the founder and E
   - [ ] communication engine used by OPC servers
   - [ ] configuration tool
   - [ ] monitoring tool
-  - etc. 
+  - etc.
 
 ### Releases
 
-We use [Semantic Versioning](http://semver.org/) for versioning. For the versions available, see the [releases on this repository](https://github.com/commsvr-com/migration2os/releases). For your convenience, the versions of the repository, tools and NuGet packages has been listed in the next subsections.
-
-#### Repository
-
-| Version | Milestone                                                          | DOI |Date|
-|:-------:|--------------------------------------------------------------------|:---:|:--:|
-| | | |
+We use [Semantic Versioning](http://semver.org/) for versioning. For the versions available, see the [releases on this repository](https://github.com/commsvr-com/migration2os/releases). For your convenience, the versions of the tools and NuGet packages making up the `CommServer` software has been listed in the next subsections.
 
 #### Tools
 
 The table below lists the latest versions of the published Tools.
 
-| Description | Version |
-|----|:---------:|
+| Description | Version |Source|Installer|Date|
+|-------------|:-------:|------|------------|----|
+|Address Space Model Designer (ASMD) |3.20.1|[mpostol/ASMD](mpostol/ASMD)|[Windows installation released by CAS](http://www.commsvr.com/COInstal/UAModelDesignerPro/setup.exe)|May 17, 2016|
 
 #### NuGet packages
 
 The table below lists the published NuGet packages.
 
 | Package Id  |  Description |Repository|
-|----|--------------|----------|
+|-------------|--------------|:--------:|
 [CAS.CodeProtec](https://www.nuget.org/packages/CAS.CodeProtect/) |Helper library supporting licenses creation and validation.| [mpostol/CodeProtect](https://github.com/mpostol/CodeProtect)
 [CAS.RealTime][asmdn]|Real-Time Programming Helpers Library. |[mpostol/RealTime](https://github.com/mpostol/RealTime)
 [CAS.CommServer.DA.Client][asmdn] | Provides set of assemblies that may be used by the OPC DA Clients. | NA|
