@@ -17,11 +17,12 @@ The `CommServer` software was written by CAS Lodz Poland. I am the founder and E
 
 ## Migration Scope
 
-- [ ] [Address Space Model Designer](http://www.commsvr.com/Products/OPCUA/UAModelDesigner.aspx)
+- [x] [Address Space Model Designer](http://www.commsvr.com/Products/OPCUA/UAModelDesigner.aspx)
 - [ ] [Process Observer](http://www.commsvr.com/Products/OPCUA/CommServerUA.aspx)
   - [ ] communication engine used by OPC servers
   - [ ] configuration tool
   - [ ] monitoring tool
+- [ ] [OOI Reactive Application]() (PubSub) configuration editor
   - etc.
 
 ## Releases
@@ -40,8 +41,8 @@ The table below lists the latest versions of the published Tools.
 
 The table below lists the published NuGet packages.
 
-| Package Id  |  Description |Repository|
-|-------------|--------------|:--------:|
+| Package Id  | Description | Source |
+|-------------|-------------|:------:|
 [CAS.CodeProtec](https://www.nuget.org/packages/CAS.CodeProtect/) |Helper library supporting licenses creation and validation.| [mpostol/CodeProtect](https://github.com/mpostol/CodeProtect)
 [CAS.RealTime][asmdn]|Real-Time Programming Helpers Library. |[mpostol/RealTime](https://github.com/mpostol/RealTime)
 [CAS.CommServer.DA.Client][asmdn] | Provides set of assemblies that may be used by the OPC DA Clients. | NA|
@@ -61,10 +62,26 @@ The table below lists the published NuGet packages.
 [CAS.UA.IServerConfiguration](https://www.nuget.org/packages/CAS.UA.IServerConfiguration/)|The CAS.UA.IServerConfiguration library contains a shared interfaces for server configuration which UA applications can reference.The library provides an abstraction over any OPC UA server configuration plug-in. Using the library allows an application to indirectly access the server configuration attributes without relying on hard references. The hope is that using this library, third-party applications and frameworks can begin to leverage server configuration management without tying themselves down to a specific implementation.|[mpostol/OPC-UA-OOI](https://github.com/mpostol/OPC-UA-OOI)
 [CAS.Windows.Forms][asmdn]|The library contains Windows.Forms controls.|NA
 
+## Read more
+
+- [Object Oriented Internet - C# deliverables supporting a new Machine To Machine (M2M) communication architecture; GitHub repository][OOI]
+- [OPC UA Address Space Model Designer;GitHub repository](ASMD)
+- [CommServer - Home Page][comsvr]
+- [CAS Lodz Poland Home Page][CAS]
+- [WIKI of this project](https://github.com/commsvr-com/migration2os/wiki)
+- [My Blog: About enablers of future solutions](http://wwww.mpostol.wordpress.com/)
+- [About me on LinkedIn](https://pl.linkedin.com/in/mpostol)
+- [OPC Foundation](https://opcfoundation.org/)
+- [Contributing](https://github.com/commsvr-com/migration2os/blob/master/CONTRIBUTING.md)
+
+[CAS]:http://www.cas.eu/
 [comsvr]:http://www.commsvr.com/
 [asmdn]:https://github.com/mpostol/ASMD/tree/master/_nugets
+[OOI]:https://github.com/mpostol/OPC-UA-OOI
+[ASMD]:https://github.com/mpostol/ASMD
 
 <?-
+
 ## Content
 
 ### Architecture
@@ -74,10 +91,6 @@ The repository workspace are organized as it is illustrated in the Figure below.
 TBD
 
 ## How to Contribute
-
-TBD
-
-## See Also
 
 TBD
 
