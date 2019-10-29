@@ -24,11 +24,11 @@ The `CommServer` software was written by CAS Lodz Poland. I am the founder and E
   - [ ] monitoring tool
   - etc.
 
-### Releases
+## Releases
 
 We use [Semantic Versioning](http://semver.org/) for versioning. For the versions available, see the [releases on this repository](https://github.com/commsvr-com/migration2os/releases). For your convenience, the versions of the tools and NuGet packages making up the `CommServer` software has been listed in the next subsections.
 
-#### Tools
+### Tools
 
 The table below lists the latest versions of the published Tools.
 
@@ -36,7 +36,7 @@ The table below lists the latest versions of the published Tools.
 |-------------|:-------:|------|------------|----|
 |Address Space Model Designer (ASMD) |3.20.1|[mpostol/ASMD](mpostol/ASMD)|[Windows installation released by CAS](http://www.commsvr.com/COInstal/UAModelDesignerPro/setup.exe)|May 17, 2016|
 
-#### NuGet packages
+### NuGet packages
 
 The table below lists the published NuGet packages.
 
@@ -61,6 +61,10 @@ The table below lists the published NuGet packages.
 [CAS.UA.IServerConfiguration](https://www.nuget.org/packages/CAS.UA.IServerConfiguration/)|The CAS.UA.IServerConfiguration library contains a shared interfaces for server configuration which UA applications can reference.The library provides an abstraction over any OPC UA server configuration plug-in. Using the library allows an application to indirectly access the server configuration attributes without relying on hard references. The hope is that using this library, third-party applications and frameworks can begin to leverage server configuration management without tying themselves down to a specific implementation.|[mpostol/OPC-UA-OOI](https://github.com/mpostol/OPC-UA-OOI)
 [CAS.Windows.Forms][asmdn]|The library contains Windows.Forms controls.|NA
 
+[comsvr]:http://www.commsvr.com/
+[asmdn]:https://github.com/mpostol/ASMD/tree/master/_nugets
+
+<?-
 ## Content
 
 ### Architecture
@@ -69,5 +73,12 @@ The repository workspace are organized as it is illustrated in the Figure below.
 
 TBD
 
-[comsvr]:http://www.commsvr.com/
-[asmdn]:https://github.com/mpostol/ASMD/tree/master/_nugets
+## How to Contribute
+
+TBD
+
+## See Also
+
+TBD
+
+-->
