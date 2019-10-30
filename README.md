@@ -17,13 +17,12 @@ The `CommServer` software was written by CAS Lodz Poland. I am the founder and E
 
 ## Migration Scope
 
-- [x] [Address Space Model Designer](http://www.commsvr.com/Products/OPCUA/UAModelDesigner.aspx)
+- [x] [Address Space Model Designer](http://www.commsvr.com/Products/OPCUA/UAModelDesigner.aspx) Tool
+- [x] [OOI Reactive Application][OOI] (PubSub) Configuration Editor Tool
 - [ ] [Process Observer](http://www.commsvr.com/Products/OPCUA/CommServerUA.aspx)
-  - [ ] communication engine used by OPC servers
-  - [ ] configuration tool
-  - [ ] monitoring tool
-- [ ] [OOI Reactive Application]() (PubSub) configuration editor
-  - etc.
+  - [ ] communication engine used by OPC servers library
+  - [ ] Configuration Editor Tool
+  - [ ] Monitoring Tool
 
 ## Releases
 
@@ -33,9 +32,10 @@ We use [Semantic Versioning](http://semver.org/) for versioning. For the version
 
 The table below lists the latest versions of the published Tools.
 
-| Description | Version |Source|Installer|Date|
-|-------------|:-------:|------|------------|----|
-|Address Space Model Designer (ASMD) |3.20.1|[mpostol/ASMD](mpostol/ASMD)|[Windows installation released by CAS](http://www.commsvr.com/COInstal/UAModelDesignerPro/setup.exe)|May 17, 2016|
+| Description | Version |Source|Installer|
+|-------------|:-------:|------|------------|
+|Address Space Model Designer (ASMD) |NA|[mpostol/ASMD][ASMD]|[Windows installation released by CAS (V3.20.1 -2016)](http://www.commsvr.com/COInstal/UAModelDesignerPro/setup.exe)
+Object Oriented Internet Reactive Networking Configuration Editor| NA |[mpostol/OPC-UA-OOI.ConfigEditor][ConfigEditor] | NA
 
 ### NuGet packages
 
@@ -43,7 +43,7 @@ The table below lists the published NuGet packages.
 
 | Package Id  | Description | Source |
 |-------------|-------------|:------:|
-[CAS.CodeProtec](https://www.nuget.org/packages/CAS.CodeProtect/) |Helper library supporting licenses creation and validation.| [mpostol/CodeProtect](https://github.com/mpostol/CodeProtect)
+[CAS.CodeProtect](https://www.nuget.org/packages/CAS.CodeProtect/) |Helper library supporting licenses creation and validation.| [mpostol/CodeProtect](https://github.com/mpostol/CodeProtect)
 [CAS.RealTime][asmdn]|Real-Time Programming Helpers Library. |[mpostol/RealTime](https://github.com/mpostol/RealTime)
 [CAS.CommServer.DA.Client][asmdn] | Provides set of assemblies that may be used by the OPC DA Clients. | NA|
 [CAS.CommServer.DA.Viewer][asmdn]|CommServer OPC Viewer is a full featured OPC client designed to help during installation, testing, and configuration of OPC Data Access compliant servers. This tool is available as standalone or included in the other software packages.|NA
@@ -74,6 +74,7 @@ The table below lists the published NuGet packages.
 - [OPC Foundation](https://opcfoundation.org/)
 - [Contributing](https://github.com/commsvr-com/migration2os/blob/master/CONTRIBUTING.md)
 
+[ConfigEditor]:https://github.com/mpostol/OPC-UA-OOI.ConfigEditor
 [CAS]:http://www.cas.eu/
 [comsvr]:http://www.commsvr.com/
 [asmdn]:https://github.com/mpostol/ASMD/tree/master/_nugets
