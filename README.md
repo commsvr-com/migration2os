@@ -12,17 +12,17 @@ After migration, this project will aggregate the description of all activities a
 
 To learn more about `CommServer` software family visit the [software home page][comsvr].
 
-
 The `CommServer` software was written by CAS Lodz Poland. I am the founder and Executive Director of CAS. Now CAS is just an individual business activity conducted by me, so I decided to move this software to Open Source.
 
 ## Migration Scope
 
 - [x] [Address Space Model Designer](http://www.commsvr.com/Products/OPCUA/UAModelDesigner.aspx) Tool
 - [x] [OOI Reactive Application][OOI] (PubSub) Configuration Editor Tool
-- [ ] [Process Observer](http://www.commsvr.com/Products/OPCUA/CommServerUA.aspx)
-  - [ ] communication engine used by OPC servers library
-  - [ ] Configuration Editor Tool
-  - [ ] Monitoring Tool
+- [x] [Process Observer][PO]
+  - [x] communication engine used by OPC servers library
+  - [x] Configuration Editor Tool
+  - [x] Monitoring Tool
+  - [ ] CommServer.DataProvider - selected protocol drivers, i.e. MODBUS, M-BUS, S-BUS, etc. simulators, diagnostic tool
 
 ## Releases
 
@@ -73,6 +73,7 @@ The table below lists the published NuGet packages.
 - [About me on LinkedIn](https://pl.linkedin.com/in/mpostol)
 - [OPC Foundation](https://opcfoundation.org/)
 - [Contributing](https://github.com/commsvr-com/migration2os/blob/master/CONTRIBUTING.md)
+- [Process Observer as a Platform For Large Scale Distributed Process and Business Management Integration][POCommSvr]
 
 [ConfigEditor]:https://github.com/mpostol/OPC-UA-OOI.ConfigEditor
 [CAS]:http://www.cas.eu/
@@ -80,6 +81,8 @@ The table below lists the published NuGet packages.
 [asmdn]:https://github.com/mpostol/ASMD/tree/master/_nugets
 [OOI]:https://github.com/mpostol/OPC-UA-OOI
 [ASMD]:https://github.com/mpostol/ASMD
+[PO]:https://github.com/mpostol/ProcessObserver
+[POCommSvr]:http://www.commsvr.com/DownloadCenter/Publications/IdeaofProcessObserver.aspx
 
 <?-
 
