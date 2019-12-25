@@ -34,7 +34,8 @@ The table below lists the latest versions of the published Tools.
 
 | Description | Version |Source|Installer|
 |-------------|:-------:|------|------------|
-|Address Space Model Designer (ASMD) |NA|[mpostol/ASMD][ASMD]|[Windows installation released by CAS (V3.20.1 -2016)](http://www.commsvr.com/COInstal/UAModelDesignerPro/setup.exe)
+| Public release of the ASMD | 4.1 | [mpostol/ASMD][ASMD] | [OOI - OPC UA Address Space Model Designer V 4.1](https://github.com/mpostol/ASMD/releases/tag/4.1.0) |
+CAS Address Space Model Designer (ASMD) |3.20.1|[mpostol/ASMD][ASMD]|[Windows installation released by CAS (V3.20.1 -2016)](http://www.commsvr.com/COInstal/UAModelDesignerPro/setup.exe)
 Object Oriented Internet Reactive Networking Configuration Editor| NA |[mpostol/OPC-UA-OOI.ConfigEditor][ConfigEditor] | NA
 
 ### NuGet packages
