@@ -73,7 +73,6 @@ The table below lists the published NuGet packages.
 - [OPC UA Address Space Model Designer;GitHub repository](ASMD)
 - [CommServer - Home Page][comsvr]
 - [CAS Lodz Poland Home Page][CAS]
-- [WIKI of this project](https://github.com/commsvr-com/migration2os/wiki)
 - [My Blog: About enablers of future solutions](http://wwww.mpostol.wordpress.com/)
 - [About me on LinkedIn](https://pl.linkedin.com/in/mpostol)
 - [OPC Foundation](https://opcfoundation.org/)
