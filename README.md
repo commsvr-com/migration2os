@@ -16,13 +16,17 @@ The `CommServer` software was written by CAS Lodz Poland. I am the founder and E
 
 ## Migration Scope
 
-- [x] [Address Space Model Designer](http://www.commsvr.com/Products/OPCUA/UAModelDesigner.aspx) Tool
-- [x] [OOI Reactive Application][OOI] (PubSub) Configuration Editor Tool
-- [x] [Process Observer][PO]
-  - [x] communication engine used by OPC servers library
-  - [x] Configuration Editor Tool
-  - [x] Monitoring Tool
-  - [ ] CommServer.DataProvider - selected protocol drivers, i.e. MODBUS, M-BUS, S-BUS, etc. simulators, diagnostic tool
+- [ ] CAS.Windows (#11)
+- [ ] CAS.Windows.Forms (#12)
+- [ ] CAS.MAML (#8)
+- [x] [RealTime][RealTime] - Real-Time Programming Helpers Library.
+- [x] [CodeProtect][CodeProtect] - Helper library supporting licenses creation and validation.
+- [x] [ASMD][ASMD] - OPC UA Address Space Model Designer
+- [x] [OPC-UA-OOI.ConfigEditor][OPC-UA-OOI.ConfigEditor] - Object Oriented Internet Reactive Networking Configuration Editor
+- [x] [ProcessObserver][PO] - Object-Oriented Internet Machine to Sensors Connectivity (OOI.M2S)
+- [ ] CommServer.DataProvider - selected protocol drivers, i.e. MODBUS, M-BUS, S-BUS, etc. simulators
+ diagnostic tool (#10)
+- [ ] CommServer (#9)
 
 ## Releases
 
@@ -76,7 +80,8 @@ The table below lists the published NuGet packages.
 - [Contributing](https://github.com/commsvr-com/migration2os/blob/master/CONTRIBUTING.md)
 - [Process Observer as a Platform For Large Scale Distributed Process and Business Management Integration][POCommSvr]
 
-[ConfigEditor]:https://github.com/mpostol/OPC-UA-OOI.ConfigEditor
+[CodeProtect]: https://github.com/mpostol/CodeProtect
+[ConfigEditor]: https://github.com/mpostol/OPC-UA-OOI.ConfigEditor
 [CAS]:http://www.cas.eu/
 [comsvr]:http://www.commsvr.com/
 [asmdn]:https://github.com/mpostol/ASMD/tree/master/_nugets
@@ -84,6 +89,8 @@ The table below lists the published NuGet packages.
 [ASMD]:https://github.com/mpostol/ASMD
 [PO]:https://github.com/mpostol/ProcessObserver
 [POCommSvr]:http://www.commsvr.com/DownloadCenter/Publications/IdeaofProcessObserver.aspx
+[OPC-UA-OOI.ConfigEditor]:https://github.com/mpostol/OPC-UA-OOI.ConfigEditor
+[RealTime]: https://github.com/mpostol/RealTime
 
 <?-
 
