@@ -19,6 +19,7 @@ The `CommServer` software was written by CAS Lodz Poland. I am the founder and E
 - [ ] CAS.Windows (#11)
 - [ ] CAS.Windows.Forms (#12)
 - [ ] CAS.MAML (#8)
+- [ ] PR34-Documentation (#14) 
 - [x] [RealTime][RealTime] - Real-Time Programming Helpers Library.
 - [x] [CodeProtect][CodeProtect] - Helper library supporting licenses creation and validation.
 - [x] [ASMD][ASMD] - OPC UA Address Space Model Designer
@@ -27,6 +28,8 @@ The `CommServer` software was written by CAS Lodz Poland. I am the founder and E
 - [ ] CommServer.DataProvider - selected protocol drivers, i.e. MODBUS, M-BUS, S-BUS, etc. simulators
  diagnostic tool (#10)
 - [ ] CommServer (#9)
+
+> NOTE CAS.MAML and PR34-Documentation requires instalation of SHFB to process MAML files.
 
 ## Releases
 
