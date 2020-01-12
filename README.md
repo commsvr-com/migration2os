@@ -19,7 +19,7 @@ The `CommServer` software was written by CAS Lodz Poland. I am the founder and E
 - [ ] CAS.Windows (#11)
 - [ ] CAS.Windows.Forms (#12)
 - [x] [commsvr-com/Help](https://github.com/commsvr-com/Help) contains CAS.MAML
-- [ ] PR34-Documentation (#14) 
+- [x] [PR34-Documentation](https://github.com/commsvr-com/Documentation)
 - [x] [RealTime][RealTime] - Real-Time Programming Helpers Library.
 - [x] [CodeProtect][CodeProtect] - Helper library supporting licenses creation and validation.
 - [x] [ASMD][ASMD] - OPC UA Address Space Model Designer

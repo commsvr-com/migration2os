@@ -14,4 +14,3 @@ You must agree to the contributor license agreement before I can accept your cha
 5. Sit back, and wait for response from the devs.
 
 If this is your first time, you may want to head [here](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) for a more in-depth guide on how to contribute.
-
