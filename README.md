@@ -27,9 +27,9 @@ The `CommServer` software was written by CAS Lodz Poland. I am the founder and E
 - [x] [ProcessObserver][PO] - Object-Oriented Internet Machine to Sensors Connectivity (OOI.M2S)
 - [ ] CommServer.DataProvider - selected protocol drivers, i.e. MODBUS, M-BUS, S-BUS, etc. simulators
  diagnostic tool (#10)
-- [ ] CommServer (#9)
+- [x] [CommServer => mpostol/PO.Common][PO.Common]
 
-> NOTE CAS.MAML and PR34-Documentation requires instalation of SHFB to process MAML files.
+> NOTE CAS.MAML and PR34-Documentation requires installation of the SHFB tool to process MAML files.
 
 ## Releases
 
@@ -93,6 +93,7 @@ The table below lists the published NuGet packages.
 [POCommSvr]:http://www.commsvr.com/DownloadCenter/Publications/IdeaofProcessObserver.aspx
 [OPC-UA-OOI.ConfigEditor]:https://github.com/mpostol/OPC-UA-OOI.ConfigEditor
 [RealTime]: https://github.com/mpostol/RealTime
+[PO.Common]:https://github.com/mpostol/PO.Common
 
 <?-
 
