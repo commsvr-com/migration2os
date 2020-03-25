@@ -25,7 +25,7 @@ The `CommServer` software was written by CAS Lodz Poland. I am the founder and E
 - [x] [ASMD][ASMD] - OPC UA Address Space Model Designer
 - [x] [OPC-UA-OOI.ConfigEditor][OPC-UA-OOI.ConfigEditor] - Object Oriented Internet Reactive Networking Configuration Editor
 - [x] [ProcessObserver][PO] - Object-Oriented Internet Machine to Sensors Connectivity (OOI.M2S)
-- [ ] CommServer.DataProvider - selected protocol drivers, i.e. MODBUS, M-BUS, S-BUS, etc. simulators
+- [x] [CommServer.DataProvider][DataProviders] - selected protocol drivers, i.e. MODBUS, M-BUS, S-BUS, etc. simulators
  diagnostic tool (#10)
 - [x] [CommServer => mpostol/PO.Common][PO.Common]
 
@@ -94,6 +94,7 @@ The table below lists the published NuGet packages.
 [OPC-UA-OOI.ConfigEditor]:https://github.com/mpostol/OPC-UA-OOI.ConfigEditor
 [RealTime]: https://github.com/mpostol/RealTime
 [PO.Common]:https://github.com/mpostol/PO.Common
+[DataProviders]: https://github.com/mpostol/ProcessObserver.DataProviders
 
 <?-
 
