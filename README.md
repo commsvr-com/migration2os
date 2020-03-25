@@ -25,8 +25,7 @@ The `CommServer` software was written by CAS Lodz Poland. I am the founder and E
 - [x] [ASMD][ASMD] - OPC UA Address Space Model Designer
 - [x] [OPC-UA-OOI.ConfigEditor][OPC-UA-OOI.ConfigEditor] - Object Oriented Internet Reactive Networking Configuration Editor
 - [x] [ProcessObserver][PO] - Object-Oriented Internet Machine to Sensors Connectivity (OOI.M2S)
-- [x] [CommServer.DataProvider][DataProviders] - selected protocol drivers, i.e. MODBUS, M-BUS, S-BUS, etc. simulators
- diagnostic tool (#10)
+- [x] [CommServer.DataProvider][DataProviders] - selected protocol drivers, i.e. MODBUS, M-BUS, S-BUS, etc. simulators diagnostic tool
 - [x] [CommServer => mpostol/PO.Common][PO.Common]
 
 > NOTE CAS.MAML and PR34-Documentation requires installation of the SHFB tool to process MAML files.
