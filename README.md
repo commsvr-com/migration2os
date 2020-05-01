@@ -17,7 +17,7 @@ The `CommServer` software was written by CAS Lodz Poland. I am the founder and E
 ## Migration Scope
 
 - [ ] CAS.Windows (#11)
-- [ ] CAS.Windows.Forms \(commsvr-com/migration2os#12\)
+- [x] [CAS.Windows.Forms => mpostol/WindowsForms][WindowsForms]
 - [x] [commsvr-com/Help](https://github.com/commsvr-com/Help) contains CAS.MAML
 - [x] [PR34-Documentation](https://github.com/commsvr-com/Documentation)
 - [x] [RealTime][RealTime] - Real-Time Programming Helpers Library.
@@ -102,3 +102,4 @@ The table below lists the published NuGet packages.
 [OPCUA.Server]:https://github.com/mpostol/OPCUA.Server
 [OPCDA.DataPorter]:https://github.com/mpostol/OPCDA.DataPorter
 [OPCDA.Server]:https://github.com/mpostol/OPCDA.Server
+[WindowsForms]:https://github.com/mpostol/WindowsForms
