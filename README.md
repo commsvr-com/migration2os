@@ -17,7 +17,7 @@ The `CommServer` software was written by CAS Lodz Poland. I am the founder and E
 ## Migration Scope
 
 - [ ] CAS.Windows (#11)
-- [ ] CAS.Windows.Forms (#12)
+- [ ] CAS.Windows.Forms \(commsvr-com/migration2os#12\)
 - [x] [commsvr-com/Help](https://github.com/commsvr-com/Help) contains CAS.MAML
 - [x] [PR34-Documentation](https://github.com/commsvr-com/Documentation)
 - [x] [RealTime][RealTime] - Real-Time Programming Helpers Library.
@@ -27,6 +27,8 @@ The `CommServer` software was written by CAS Lodz Poland. I am the founder and E
 - [x] [ProcessObserver][PO] - Object-Oriented Internet Machine to Sensors Connectivity (OOI.M2S)
 - [x] [CommServer.DataProvider][DataProviders] - selected protocol drivers, i.e. MODBUS, M-BUS, S-BUS, etc. simulators diagnostic tool
 - [x] [CommServer => mpostol/PO.Common][PO.Common]
+- [x] [CommServer.DA.DataPorter => OPCDA.DataPorter][OPCDA.DataPorter]
+- [ ] [CommServer.DA.Server => OPC DA Server][OPCDA.Server]
 - [x] [CommServer.UA.Server => mpostol/OPCUA.Server][OPCUA.Server]
 - [x] [CommServer.UA.Viewer => mpostol/OPCUA.Viewer][OPCUA.Viewer]
 
@@ -98,3 +100,5 @@ The table below lists the published NuGet packages.
 [DataProviders]: https://github.com/mpostol/ProcessObserver.DataProviders
 [OPCUA.Viewer]:https://github.com/mpostol/OPCUA.Viewer
 [OPCUA.Server]:https://github.com/mpostol/OPCUA.Server
+[OPCDA.DataPorter]:https://github.com/mpostol/OPCDA.DataPorter
+[OPCDA.Server]:https://github.com/mpostol/OPCDA.Server
