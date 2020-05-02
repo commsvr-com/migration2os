@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>`CommServer` software Migration and Maintenance</title>
+
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+
+    <style>
+        .task-list-item {
+            list-style-type: none;
+        }
+
+        .task-list-item-checkbox {
+            margin-left: -20px;
+            vertical-align: middle;
+        }
+    </style>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', 'Ubuntu', 'Droid Sans', sans-serif;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+    </style>
+
+
+</head>
+
+<body class="vscode-light">
+    <h1 id="commserver-software-migration-and-maintenance"><code>CommServer</code> software Migration and Maintenance
+    </h1>
+    <p>This project is aimed at <code>CommServer</code> software migration from on-premise subversion repository to
+        GitHub and publishing it as the Open-source software (OSS). OSS is a type of computer software in which source
+        code is released under a license in which the copyright holder grants users the rights to study, change, and
+        distribute the software to anyone and for any purpose.</p>
+    <p>The project will be used to manage the migration process of transferring multi-parts software from an on-premise
+        subversion repository to a set of GitHub repositories.</p>
+    <p>After migration, this project will aggregate the description of all activities addressing the software
+        maintenance process.</p>
+    <h2 id="about-commserver">About <code>CommServer</code></h2>
+    <p><code>CommServer</code> is a package of software to manage data transfer. Built-in technologies and algorithms
+        provide a smart data transmission that automatically adapts its parameters to the process needs and underlying
+        communication network capabilities.</p>
+    <p>To learn more about <code>CommServer</code> software family visit the <a href="https://www.commsvr.com/">software
+            home page</a>.</p>
+    <p>The <code>CommServer</code> software was written by CAS Lodz Poland. I am the founder and Executive Director of
+        CAS. Now CAS is just an individual business activity conducted by me, so I decided to move this software to Open
+        Source.</p>
+    <h2 id="migration-scope">Migration Scope</h2>
+    <ul class="contains-task-list">
+        <li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox"> <a
+                href="https://github.com/mpostol/WindowsForms">CAS.Windows.Forms =&gt; mpostol/WindowsForms</a></li>
+        <li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox"> <a
+                href="https://github.com/commsvr-com/Help">commsvr-com/Help</a> contains CAS.MAML</li>
+        <li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox"> <a
+                href="https://github.com/commsvr-com/Documentation">PR34-Documentation</a></li>
+        <li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox"> <a
+                href="https://github.com/mpostol/RealTime">RealTime</a> - Real-Time Programming Helpers Library.</li>
+        <li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox"> <a
+                href="https://github.com/mpostol/CodeProtect">CodeProtect</a> - Helper library supporting licenses
+            creation and validation.</li>
+        <li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox"> <a
+                href="https://github.com/mpostol/ASMD">ASMD</a> - OPC UA Address Space Model Designer</li>
+        <li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox"> <a
+                href="https://github.com/mpostol/OPC-UA-OOI.ConfigEditor">OPC-UA-OOI.ConfigEditor</a> - Object Oriented
+            Internet Reactive Networking Configuration Editor</li>
+        <li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox"> <a
+                href="https://github.com/mpostol/ProcessObserver">ProcessObserver</a> - Object-Oriented Internet Machine
+            to Sensors Connectivity (OOI.M2S)</li>
+        <li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox"> <a
+                href="https://github.com/mpostol/ProcessObserver.DataProviders">CommServer.DataProvider</a> - selected
+            protocol drivers, i.e. MODBUS, M-BUS, S-BUS, etc. simulators diagnostic tool</li>
+        <li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox"> <a
+                href="https://github.com/mpostol/PO.Common">CommServer =&gt; mpostol/PO.Common</a></li>
+        <li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox"> <a
+                href="https://github.com/mpostol/OPCDA.DataPorter">CommServer.DA.DataPorter =&gt; OPCDA.DataPorter</a>
+        </li>
+        <li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox"> <a
+                href="https://github.com/mpostol/OPCDA.Viewer">CommServer.DA.Viewer =&gt; OPCDA.Viewer</a></li>
+        <li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox"> <a
+                href="https://github.com/mpostol/OPCDA.Server">CommServer.DA.Server =&gt; OPC DA Server</a></li>
+        <li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox"> <a
+                href="https://github.com/mpostol/OPCUA.Server">CommServer.UA.Server =&gt; mpostol/OPCUA.Server</a></li>
+        <li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox"> <a
+                href="https://github.com/mpostol/OPCUA.Viewer">CommServer.UA.Viewer =&gt; mpostol/OPCUA.Viewer</a></li>
+        <li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox"> CAS.Windows (#11)
+        </li>
+        <li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox"> TBD in
+            commsvr-com/migration2os#22</li>
+    </ul>
+    <blockquote>
+        <p>NOTE CAS.MAML and PR34-Documentation requires installation of the SHFB tool to process MAML files.</p>
+    </blockquote>
+    <h2 id="releases">Releases</h2>
+    <p>We use <a href="http://semver.org/">Semantic Versioning</a> for versioning. For the versions available, see the
+        <a href="https://github.com/commsvr-com/migration2os/releases">releases on this repository</a>. For your
+        convenience, the versions of the tools and NuGet packages making up the <code>CommServer</code> software has
+        been listed in the next subsections.</p>
+    <h3 id="tools">Tools</h3>
+    <p>The table below lists the latest versions of the published Tools.</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Description</th>
+                <th style="text-align:center">Version</th>
+                <th>Source</th>
+                <th>Installer</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Public release of the ASMD</td>
+                <td style="text-align:center">4.1</td>
+                <td><a href="https://github.com/mpostol/ASMD">mpostol/ASMD</a></td>
+                <td><a href="https://github.com/mpostol/ASMD/releases/tag/4.1.0">OOI - OPC UA Address Space Model
+                        Designer V 4.1</a></td>
+            </tr>
+            <tr>
+                <td>CAS Address Space Model Designer (ASMD)</td>
+                <td style="text-align:center">3.20.1</td>
+                <td><a href="https://github.com/mpostol/ASMD">mpostol/ASMD</a></td>
+                <td><a href="http://www.commsvr.com/COInstal/UAModelDesignerPro/setup.exe">Windows installation released
+                        by CAS (V3.20.1 -2016)</a></td>
+            </tr>
+            <tr>
+                <td>Object Oriented Internet Reactive Networking Configuration Editor</td>
+                <td style="text-align:center">NA</td>
+                <td><a href="https://github.com/mpostol/OPC-UA-OOI.ConfigEditor">mpostol/OPC-UA-OOI.ConfigEditor</a>
+                </td>
+                <td>NA</td>
+            </tr>
+        </tbody>
+    </table>
+    <h3 id="nuget-packages">NuGet packages</h3>
+    <p>The table below lists the published NuGet packages.</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Package Id</th>
+                <th>Description</th>
+                <th style="text-align:center">Source</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><a href="https://www.nuget.org/packages/CAS.CodeProtect/">CAS.CodeProtect</a></td>
+                <td>Helper library supporting licenses creation and validation.</td>
+                <td style="text-align:center"><a href="https://github.com/mpostol/CodeProtect">mpostol/CodeProtect</a>
+                </td>
+            </tr>
+            <tr>
+                <td><a href="https://github.com/mpostol/ASMD/tree/master/_nugets">CAS.RealTime</a></td>
+                <td>Real-Time Programming Helpers Library.</td>
+                <td style="text-align:center"><a href="https://github.com/mpostol/RealTime">mpostol/RealTime</a></td>
+            </tr>
+            <tr>
+                <td><a href="https://github.com/mpostol/ASMD/tree/master/_nugets">CAS.CommServer.DA.Client</a></td>
+                <td>Provides set of assemblies that may be used by the OPC DA Clients.</td>
+                <td style="text-align:center">NA</td>
+            </tr>
+            <tr>
+                <td><a href="https://github.com/mpostol/ASMD/tree/master/_nugets">CAS.CommServer.DA.Viewer</a></td>
+                <td>CommServer OPC Viewer is a full featured OPC client designed to help during installation, testing,
+                    and configuration of OPC Data Access compliant servers. This tool is available as standalone or
+                    included in the other software packages.</td>
+                <td style="text-align:center">NA</td>
+            </tr>
+            <tr>
+                <td><a
+                        href="https://github.com/mpostol/ASMD/tree/master/_nugets">CAS.CommServer.DAClientConfiguration</a>
+                </td>
+                <td>Library supporting OPC Classic Configuration management functions.</td>
+                <td style="text-align:center">NA</td>
+            </tr>
+            <tr>
+                <td><a
+                        href="https://github.com/mpostol/ASMD/tree/master/_nugets">CAS.CommServer.DAServerConfiguration</a>
+                </td>
+                <td>Server Configuration Management Library provides CAS.NetworkConfigLib namespace.</td>
+                <td style="text-align:center">NA</td>
+            </tr>
+            <tr>
+                <td><a href="https://github.com/mpostol/ASMD/tree/master/_nugets">CAS.CommServer.DeviceSimulator</a>
+                </td>
+                <td>Device Simulator for CommServer family.</td>
+                <td style="text-align:center">NA</td>
+            </tr>
+            <tr>
+                <td><a
+                        href="https://github.com/mpostol/ASMD/tree/master/_nugets">CAS.CommServer.OPCClassic.SDK.COMWrapper</a>
+                </td>
+                <td>The COM Wrapper library for OPC Classic .NET API based on OPC Foundation SDK 2.01.106.</td>
+                <td style="text-align:center">NA</td>
+            </tr>
+            <tr>
+                <td><a href="https://github.com/mpostol/ASMD/tree/master/_nugets">CAS.CommServer.OPCClassic.SDK.Core</a>
+                </td>
+                <td>The Core library for OPC Classic .NET API based on OPC Foundation SDK 2.01.106.</td>
+                <td style="text-align:center">NA</td>
+            </tr>
+            <tr>
+                <td><a
+                        href="https://github.com/mpostol/ASMD/tree/master/_nugets">CAS.CommServer.UA.ConfigurationEditor.ServerConfiguration</a>
+                </td>
+                <td>This plug-in is used to configure the CAS OPC UA CommServer and define bindings of the model
+                    instance nodes with the actual real-time process data source.</td>
+                <td style="text-align:center">NA</td>
+            </tr>
+            <tr>
+                <td><a
+                        href="https://github.com/mpostol/ASMD/tree/master/_nugets">CAS.CommServer.UA.ModelCompiler.Command</a>
+                </td>
+                <td>The Model Compiler generates UANodeSet, C# and ANSI C source code from XML files which include the
+                    UA Services, data-types, error codes, etc.; and numerous CSV files that contain NodeIds, error
+                    codes, and attributes etc. To be used as a plug-in by the CAS Address Space Model Designer.</td>
+                <td style="text-align:center">NA</td>
+            </tr>
+            <tr>
+                <td><a
+                        href="https://github.com/mpostol/ASMD/tree/master/_nugets">CAS.CommServer.UA.ModelCompiler.Common</a>
+                </td>
+                <td>OPC UA ModelCompiler common part separated form the CAS.CommServer.UA.ModelCompiler to provide the
+                    standard model.</td>
+                <td style="text-align:center">NA</td>
+            </tr>
+            <tr>
+                <td><a href="https://github.com/mpostol/ASMD/tree/master/_nugets">CAS.CommServer.UA.Stack.Core</a></td>
+                <td>OPC UA Stack provided by OPC Foundation and refactored by CAS.</td>
+                <td style="text-align:center">NA</td>
+            </tr>
+            <tr>
+                <td><a href="https://github.com/mpostol/ASMD/tree/master/_nugets">CAS.Licenses.Container</a></td>
+                <td>Is deprecated and will be removed from the dependence's chain</td>
+                <td style="text-align:center">NA</td>
+            </tr>
+            <tr>
+                <td><a href="https://github.com/mpostol/ASMD/tree/master/_nugets">CAS.MAML.HelpTopics.Content</a></td>
+                <td>Library containing schema definition of the all topics xml file.</td>
+                <td style="text-align:center">NA</td>
+            </tr>
+            <tr>
+                <td><a href="https://github.com/mpostol/ASMD/tree/master/_nugets">CAS.UA.Common</a></td>
+                <td>The library contains a shared helpers used to process OPC UA data. It contains Types definition and
+                    serialization classes.</td>
+                <td style="text-align:center">NA</td>
+            </tr>
+            <tr>
+                <td><a
+                        href="https://www.nuget.org/packages/CAS.UA.IServerConfiguration/">CAS.UA.IServerConfiguration</a>
+                </td>
+                <td>The CAS.UA.IServerConfiguration library contains a shared interfaces for server configuration which
+                    UA applications can reference.The library provides an abstraction over any OPC UA server
+                    configuration plug-in. Using the library allows an application to indirectly access the server
+                    configuration attributes without relying on hard references. The hope is that using this library,
+                    third-party applications and frameworks can begin to leverage server configuration management
+                    without tying themselves down to a specific implementation.</td>
+                <td style="text-align:center"><a href="https://github.com/mpostol/OPC-UA-OOI">mpostol/OPC-UA-OOI</a>
+                </td>
+            </tr>
+            <tr>
+                <td><a href="https://github.com/mpostol/ASMD/tree/master/_nugets">CAS.Windows.Forms</a></td>
+                <td>The library contains Windows.Forms controls.</td>
+                <td style="text-align:center">NA</td>
+            </tr>
+        </tbody>
+    </table>
+    <h2 id="read-more">Read more</h2>
+    <ul>
+        <li><a
+                href="https://mpostol.wordpress.com/2020/01/03/opc-ua-makes-machine-centric-global-village-possible-call-for-sponsors/">OPC
+                UA Makes Machine-Centric Global Village Possible – Call for Sponsors</a></li>
+        <li><a href="https://github.com/mpostol/OPC-UA-OOI">Object Oriented Internet - C# deliverables supporting a new
+                Machine To Machine (M2M) communication architecture; GitHub repository</a></li>
+        <li><a href="ASMD">OPC UA Address Space Model Designer;GitHub repository</a></li>
+        <li><a href="https://www.commsvr.com/">CommServer - Home Page</a></li>
+        <li><a href="https://www.cas.eu/">CAS Lodz Poland Home Page</a></li>
+        <li><a href="http://wwww.mpostol.wordpress.com/">My Blog: About enablers of future solutions</a></li>
+        <li><a href="https://pl.linkedin.com/in/mpostol">About me on LinkedIn</a></li>
+        <li><a href="https://opcfoundation.org/">OPC Foundation</a></li>
+        <li><a href="https://github.com/commsvr-com/migration2os/blob/master/CONTRIBUTING.md">Contributing</a></li>
+        <li><a href="http://www.commsvr.com/DownloadCenter/Publications/IdeaofProcessObserver.aspx">Process Observer as
+                a Platform For Large Scale Distributed Process and Business Management Integration</a></li>
+    </ul>
+
+</body>
+
+</html>
